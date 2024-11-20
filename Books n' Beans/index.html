@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books n' Beans</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Books n' Beans</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>Menu</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+        </ul>
+        <h1>Welcome</h1>
+        <img src="Images/coffee-shop.jpg" alt="Coffee Shop">
+        <p>Books n' Beans is an artisan coffee and book shop located in the heart of downtown Northampton. We pride ourselves on serving the highest quality organic coffee combined with rare bird-to-find vintage books.</p>
+
+        <p>Can't find the book you're looking for? Try one of our friendly neighborhood retailers below:</p>
+
+        <ol>
+            <li><a href="#">The Montague Bookmill</a></li>
+            <li>Grey Matter Book</li>
+            <li><a href="#">Boston Book Company</a></li>
+        </ol>
+
+        <p>123 Main Street, Northampton, MA 01060 | phone: 123 456 7890</p>
+        <p>Open Monday - Saturday from 7am to 10pm | Sunday from 8am to 6pm</p>
+    </nav>
+
+    <section>
+        <h2>Form Section</h2>
+        <form action="#" method="post">
+            <p>
+                Name: <input type="text" name="name" maxlength="35">
+            </p>
+            <p>
+                Email: <input type="text" name="email" maxlength="40">
+            </p>
+            <p>
+                Address Line 1: <input type="text" name="address1" maxlength="40">
+            </p>
+            <p>
+                Address Line 2: <input type="text" name="address2" maxlength="40">
+            </p>
+            <p>
+                Address Line 3: <input type="text" name="address3" maxlength="40">
+            </p>
+            <p>
+                Postal Code: <input type="text" name="postalcode" size="10" maxlength="10">
+            </p>
+            <h3>Survey Section</h3>
+            <p>
+                1. Do you like playing computer games? <br>
+                <input type="radio" name="games" value="yes"> Yes
+                <input type="radio" name="games" value="no"> No
+            </p>
+            <p>
+                2. How much did you enjoy the 'Star Wars' Trilogy? <br>
+                <input type="radio" name="starwars" value="enjoyed"> I enjoyed it
+                <input type="radio" name="starwars" value="not_enjoyed"> I did not enjoy it
+                <input type="radio" name="starwars" value="not_seen"> I have not seen it
+            </p>
+            <p>
+                3. Do you have an email address? <br>
+                <input type="radio" name="emailaddress" value="yes"> Yes
+                <input type="radio" name="emailaddress" value="no"> No
+            </p>
+            <p>
+                4. Chocolate is delicious? <br>
+                <input type="radio" name="chocolate" value="strongly_agree"> Strongly Agree
+                <input type="radio" name="chocolate" value="agree"> Agree
+                <input type="radio" name="chocolate" value="neutral"> Neutral
+                <input type="radio" name="chocolate" value="disagree"> Disagree
+                <input type="radio" name="chocolate" value="strongly_disagree"> Strongly Disagree
+            </p>
+            <p>
+                5. Do you enjoy reading books? <br>
+                <input type="radio" name="reading" value="yes"> Yes
+                <input type="radio" name="reading" value="no"> No
+            </p>
+            <p>
+                6. Do you prefer coffee over tea? <br>
+                <input type="radio" name="coffee_tea" value="coffee"> Coffee
+                <input type="radio" name="coffee_tea" value="tea"> Tea
+            </p>
+            <p>
+                7. Are you a fan of science fiction? <br>
+                <input type="radio" name="sciencefiction" value="yes"> Yes
+                <input type="radio" name="sciencefiction" value="no"> No
+            </p>
+            <p>
+                8. Do you enjoy outdoor activities? <br>
+                <input type="radio" name="outdoors" value="yes"> Yes
+                <input type="radio" name="outdoors" value="no"> No
+            </p>
+        </form>
+    </section>
+
+    <!-- Checkbox Form -->
+    <section>
+        <h2>IPersonal Preeference-Netscape</h2>
+        <form action="#" method="post">
+            <p>Please select your interests:</p>
+            <input type="checkbox" id="autos" name="interests" value="Autos">
+            <label for="autos">Autos</label><br>
+
+            <input type="checkbox" id="business" name="interests" value="Business & Finance">
+            <label for="business">Business & Finance</label><br>
+
+            <input type="checkbox" id="movies" name="interests" value="Movies">
+            <label for="movies">Movies</label><br>
+
+            <input type="checkbox" id="music" name="interests" value="Music">
+            <label for="music">Music</label><br>
+
+            <input type="checkbox" id="computers" name="interests" value="Computer & Internet">
+            <label for="computers">Computer & Internet</label><br>
+
+            <input type="checkbox" id="science" name="interests" value="Science">
+            <label for="science">Science</label><br>
+
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Select Your Watch</h2>
+        <form action="#" method="post">
+            <p>
+                Simple digital watch ($40)
+                <input type="checkbox" id="simpleDigital" name="watches" value="SimpleDigital">
+            </p>
+            <p>
+                Chrome strap digital watch ($52)
+                <input type="checkbox" id="chromeDigital" name="watches" value="ChromeDigital">
+            </p>
+            <p>
+                Traditional gold watch ($107)
+                <input type="checkbox" id="goldTraditional" name="watches" value="GoldTraditional">
+            </p>
+            <p>
+                Antique pocket watch ($250)
+                <input type="checkbox" id="antiquePocket" name="watches" value="AntiquePocket">
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
